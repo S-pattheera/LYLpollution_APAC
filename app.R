@@ -4,7 +4,7 @@ library(ggplot2)  # For creating pretty plots
 library(dplyr)  # For filtering and manipulating data
 #library(agridat)  # The package where the data comes from
 
-Data <- read.csv(".Data/dataLYLcom.csv")
+Data <- read.csv("https://github.com/S-pattheera/LYLpollution_APAC/blob/main/dataLYLcom.csv")
 
 ui <- fluidPage(
   #Header
